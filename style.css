@@ -1,0 +1,113 @@
+/*General*/
+html,
+body {
+font-family: Raleway ;
+
+}
+.flexCentre{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.flexAround{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flexBetween{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.decorationNone{
+    text-decoration: none;
+}
+.bordure-none {
+    border: none;
+  }
+.back-gris {
+    background-color: #f2f2f2;
+  }
+  .back-bleu{
+      background-color: blue;
+  }
+  .color-bleu {
+    color: #0065fc;
+  }
+/*Nav*/
+.sizeLiens{
+    width: 45%;
+}
+.colorLien1{
+    color: blue;
+}
+.colorLien2{
+    color: black
+}
+/*Header*/
+.bodureSearch {
+   width:400px;
+   border-radius:10px;
+}
+.recherche{
+    height:50px;
+    width:230px;
+font-size:18px;
+color:black;
+font-weight: bold;
+}
+.iconSize{
+    height:50px;
+    width:50px;
+}
+.padding-search{
+    padding-left: 20px;
+}
+.button-search{
+    height: 50px;
+    width: 120px;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+}
+/*Filtre*/
+.marge-filtre{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.filtre{
+    display:flex;
+    align-items:center ;
+}
+.marge-filtre-titre{
+    margin-right: 20px;
+}
+.filtre-text-icon{
+    border: 2px solid #f2f2f2;
+    height:50px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.filtre-icon{
+    border-radius: 25px;
+    width:50px;
+    background-color:cornflowerblue ;
+    height: 50px;
+    color: blue;
+
+}
+/*INFO*/
+.info{
+    display: flex;
+    align-items: center;
+    
+}
+.parent-icon {
+  width: 20px;
+  height: 20px;
+  border: 2px solid gray;
+  border-radius: 25px;
+  margin-right: 5px;
+}
