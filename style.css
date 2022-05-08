@@ -460,6 +460,15 @@ body {
 
     }
 
+    .mobileFiltreWrap {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .filtre-text-icon {
+        margin-bottom: 20px;
+    }
+
     .cubeHebergement {
         flex-direction: column;
     }
@@ -507,14 +516,7 @@ body {
 }
 
 @media screen and (max-width: 780px) {
-    .mobileFiltreWrap {
-        flex-direction: column;
-        align-items: flex-start;
-    }
 
-    .filtre-text-icon {
-        margin-bottom: 20px;
-    }
 
     .blocHebergements {
         height: auto;
