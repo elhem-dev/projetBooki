@@ -182,6 +182,22 @@ body {
     margin-right: 20px;
 }
 
+.filtre-text-icon:hover>.filtre-texte {
+    color: #0065fc;
+}
+
+.filtre-text-icon:hover>.filtre-icon {
+    color: white;
+    background-color: #0065fc;
+}
+
+.filtre-texte {
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0 25px 25px 0;
+}
+
 .filtre-icon {
     margin-left: -2px;
     border-radius: 25px;
